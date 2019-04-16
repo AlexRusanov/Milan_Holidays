@@ -1,0 +1,28 @@
+.container {
+    font-family: sans-serif;
+    width: 1366px;
+    background-image: url("../img/milan-holidays-bcg-img.png");
+    background-size: cover;
+}
+
+.logo {
+    color: white;
+}
+
+.logo-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-text {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+.logo-text-milan {
+    font-size: 29px;
+}
