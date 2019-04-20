@@ -3,26 +3,153 @@
     width: 1366px;
     background-image: url("../img/milan-holidays-bcg-img.png");
     background-size: cover;
-}
-
-.logo {
     color: white;
 }
 
-.logo-icon {
-    display: inline-block;
-    vertical-align: middle;
+.header-logo {
+    float: left;
+    color: white;
+    margin-left: 155px;
+    margin-top: 49px;
+    background-image: url("../img/milan-holidays-logo.png");
+    background-repeat: no-repeat;
 }
 
-.logo-text {
+.header-logo:hover {
+    color: #f26522;
+    background-image: url("../img/milan-holidays-logo-hover.png");
+}
+
+.header-logo-text {
     display: inline-block;
     font-size: 18px;
     text-transform: uppercase;
     vertical-align: middle;
     text-align: justify;
-    margin-left: 15px;
+    margin-left: 61px;
 }
 
 .logo-text-milan {
     font-size: 29px;
+}
+
+.header-contacts {
+    font-size: 18px;
+    float: right;
+    text-align: right;
+    margin-right: 147px;
+    margin-top: 57px;
+}
+
+.header-contacts-text {
+    vertical-align: bottom;
+}
+
+.products {
+    margin-left: 157px;
+    margin-top: 48px;
+}
+
+.products-item {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-right: 65px;
+    margin-bottom: 60px;
+}
+
+.products-item:hover {
+    color: #f26522;
+}
+
+.products-item-img {
+    width: 307px;
+    height: 200px;
+    margin-bottom: 22px;
+    border: solid 2px white;
+    border-image: linear-gradient(to top, transparent 0%, white 100%);
+    border-image-slice: 1;
+    position: relative;
+    overflow:hidden;
+}
+
+.products-item-bg1 {
+    background-image: url("../img/shopping-tours-img.png");
+    background-repeat: no-repeat;
+}
+
+.products-item-bg2 {
+    background-image: url("../img/sightseeing-tours-img.png");
+    background-repeat: no-repeat;
+}
+
+.products-item-bg3 {
+    background-image: url("../img/food-tours-img.png");
+    background-repeat: no-repeat;
+}
+
+.products-item-bg4 {
+    background-image: url("../img/bars-nightlife-img.png");
+    background-repeat: no-repeat;
+}
+
+.products-item-bg5 {
+    background-image: url("../img/art-architecture-img.png");
+    background-repeat: no-repeat;
+}
+
+.products-item-bg6 {
+    background-image: url("../img/walking-tours-img.png");
+    background-repeat: no-repeat;
+}
+
+.products-item-details {
+    width: 100%;
+    height: 63px;
+    background-color: #f26522;
+    position: absolute;
+    bottom: -65px;
+    transition-duration:0.6s;
+}
+
+.products-item:hover .products-item-details {
+    bottom: -2px;
+    color: white;
+}
+
+.details-text-from {
+    float: left;
+    font-size: 10px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-left: 21px;
+}
+
+.details-text-price {
+    float: left;
+    font-size: 20px;
+    clear: left;
+    margin-left: 21px;
+}
+
+.details-view-text {
+    float: right;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 18px;
+    padding-right: 22px;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
 }
