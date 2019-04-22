@@ -1,16 +1,20 @@
 .container {
     font-family: sans-serif;
-    width: 1366px;
-    background-image: url("../img/milan-holidays-bcg-img.png");
+    background: url("../img/background-color-img.png"), url("../img/milan-holidays-bcg-img.png");
     background-size: cover;
     color: white;
+}
+
+.inner-container {
+    width: 1063px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 .header-logo {
     float: left;
     color: white;
-    margin-left: 155px;
-    margin-top: 49px;
     background-image: url("../img/milan-holidays-logo.png");
     background-repeat: no-repeat;
 }
@@ -37,16 +41,10 @@
     font-size: 18px;
     float: right;
     text-align: right;
-    margin-right: 147px;
-    margin-top: 57px;
-}
-
-.header-contacts-text {
-    vertical-align: bottom;
+    margin-top: 8px;
 }
 
 .products {
-    margin-left: 157px;
     margin-top: 48px;
 }
 
@@ -145,7 +143,10 @@
 .footer {
     font-size: 12px;
     text-align: center;
-    padding-bottom: 20px;
+}
+
+.mr0 {
+    margin-right: 0;
 }
 
 .clearfix::after {
